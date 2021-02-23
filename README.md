@@ -33,7 +33,7 @@ python build_extend_utils_cffi.py
 
 run `build_ceres.sh` and move all files in `ceres/ceres-solver-x.xx.x/build/lib/` to `lib/utils/extend_utils/lib`.
 
-Add LD_LIBRARY_PATH under '$ROOT/lib/utils/extend_utils'
+Add LD_LIBRARY_PATH under ```$ROOT/lib/utils/extend_utils```
 
 ```
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path_to/instancepose/lib/utils/extend_utils/lib
