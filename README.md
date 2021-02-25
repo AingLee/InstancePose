@@ -83,7 +83,7 @@ If setup correctly, the output will look like
 python tools/train_linemod.py --cfg_file configs/linemod_train.json --linemod_cls all
 ```
 
-### Testing
+### Testing with Occlusion LINEMOD
 
 ```
 python tools/train_linemod.py --cfg_file configs/linemod_train.json --linemod_cls all --test_model
