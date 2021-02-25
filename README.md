@@ -77,13 +77,13 @@ If setup correctly, the output will look like
 
 ## Training and testing
 
-### Training with synthetic data
+1. Training with synthetic data
 
 ```
 python tools/train_linemod.py --cfg_file configs/linemod_train.json --linemod_cls all
 ```
 
-### Testing with Occlusion LINEMOD
+2. Testing with Occlusion LINEMOD
 
 ```
 python tools/train_linemod.py --cfg_file configs/linemod_train.json --linemod_cls all --test_model
