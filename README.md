@@ -12,17 +12,18 @@ Any questions or discussions are welcomed!
 pip install -r requirements.txt
 ```
 
-We need compile several files, which works fine with pytorch v1.5.0 and gcc 5.4.0.
-
 For users with a RTX GPU, you must use CUDA10 and pytorch v1.5.0 built from CUDA10.
+
+Operating system: Ubuntu 18.04 is recommended
 
 2. Compile some extension utils
 
 ```
+ROOT=/path_to/instancepose
 cd $ROOT/lib/utils/extend_utils
 ```
 
-Revise the `cuda_include` and `dart` in `build_extend_utils_cffi.py` to be compatible with the CUDA in your computer.
+Adjust the CUDA version in 'cuda_include' and `dart` in `build_extend_utils_cffi.py` to be compatible with the CUDA in your computer.
 
 ```
 sudo apt-get install libgoogle-glog-dev
