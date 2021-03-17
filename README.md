@@ -1,6 +1,6 @@
 # InstancePose: Fast 6DoF Pose Estimation for Multiple Objects from a Single RGB Image
 
-![introduction](./ads/Figure1.png)
+![introduction](./ads/figure1.png)
 
 Any questions or discussions are welcomed!
 
@@ -73,7 +73,7 @@ python demo.py
 
 If setup successfully, the output will look like
 
-![instancepose](./ads/Figure2.png)
+![instancepose](./ads/figure2.png)
 
 
 ## Training and testing
