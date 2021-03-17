@@ -1,6 +1,6 @@
 # InstancePose: Fast 6DoF Pose Estimation for Multiple Objects from a Single RGB Image
 
-![introduction](./ads/figure2.png)
+![introduction](./images/figure1.png)
 
 Any questions or discussions are welcomed!
 
