@@ -1,4 +1,4 @@
-# InstancePose: Fast 6DoF Pose Estimation for Multiple Objects from a Single RGB Image
+# InstancePose: Fast 6DoF Pose Estimation for Multiple Objects \\from a Single RGB Image
 
 ![introduction](./bonus/figure1.png)
 
