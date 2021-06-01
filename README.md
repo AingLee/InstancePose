@@ -32,6 +32,12 @@ sudo apt-get install libatlas-base-dev
 python build_extend_utils_cffi.py
 ```
 
+Check whether Pytorch is compatible with CUDA by
+
+```
+torch.version.cuda
+```
+
 Run `build_ceres.sh` and copy all files in `ceres/ceres-solver-x.xx.x/build/lib/` to `$ROOT/lib/utils/extend_utils/lib/`.
 
 ```
